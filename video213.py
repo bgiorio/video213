@@ -15,7 +15,7 @@ st.subheader("Our Team")
 col1, col2, col3 = st.columns(3)
 
 # Use the correct separator
-df = pd.read_csv("C:/Brad/Python/Video213Project/data.csv", sep=",")
+df = pd.read_csv("data.csv", sep=",")
 
 # Normalize column names
 df.columns = df.columns.str.strip().str.lower()
